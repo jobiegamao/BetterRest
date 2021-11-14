@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C4E2AFD27367ADE00D2D0C5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4E2AFC27367ADE00D2D0C5 /* Tests_iOS.swift */; };
-		6C4E2B0827367ADE00D2D0C5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4E2B0727367ADE00D2D0C5 /* Tests_macOS.swift */; };
 		6C4E2B0A27367ADE00D2D0C5 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4E2AE127367ADD00D2D0C5 /* BetterRestApp.swift */; };
 		6C4E2B0B27367ADE00D2D0C5 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4E2AE127367ADD00D2D0C5 /* BetterRestApp.swift */; };
 		6C4E2B0C27367ADE00D2D0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4E2AE227367ADD00D2D0C5 /* ContentView.swift */; };
 		6C4E2B0D27367ADE00D2D0C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4E2AE227367ADD00D2D0C5 /* ContentView.swift */; };
 		6C4E2B0E27367ADE00D2D0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4E2AE327367ADE00D2D0C5 /* Assets.xcassets */; };
 		6C4E2B0F27367ADE00D2D0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4E2AE327367ADE00D2D0C5 /* Assets.xcassets */; };
+		6C4FC6E427410C660089E4F7 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FC6E327410C660089E4F7 /* SleepCalculator.mlmodel */; };
+		6C4FC6E527410C660089E4F7 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FC6E327410C660089E4F7 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +39,10 @@
 		6C4E2AE227367ADD00D2D0C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C4E2AE327367ADE00D2D0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C4E2AE827367ADE00D2D0C5 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C4E2AEB27367ADE00D2D0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C4E2AF027367ADE00D2D0C5 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C4E2AF227367ADE00D2D0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C4E2AF327367ADE00D2D0C5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		6C4E2AF827367ADE00D2D0C5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C4E2AFC27367ADE00D2D0C5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		6C4E2AFE27367ADE00D2D0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C4E2B0327367ADE00D2D0C5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C4E2B0727367ADE00D2D0C5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		6C4E2B0927367ADE00D2D0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4FC6E327410C660089E4F7 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				6C4E2AE027367ADD00D2D0C5 /* Shared */,
-				6C4E2AEA27367ADE00D2D0C5 /* iOS */,
-				6C4E2AF127367ADE00D2D0C5 /* macOS */,
-				6C4E2AFB27367ADE00D2D0C5 /* Tests iOS */,
-				6C4E2B0627367ADE00D2D0C5 /* Tests macOS */,
 				6C4E2AE927367ADE00D2D0C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +90,7 @@
 			children = (
 				6C4E2AE127367ADD00D2D0C5 /* BetterRestApp.swift */,
 				6C4E2AE227367ADD00D2D0C5 /* ContentView.swift */,
+				6C4FC6E327410C660089E4F7 /* SleepCalculator.mlmodel */,
 				6C4E2AE327367ADE00D2D0C5 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -114,41 +105,6 @@
 				6C4E2B0327367ADE00D2D0C5 /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6C4E2AEA27367ADE00D2D0C5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6C4E2AEB27367ADE00D2D0C5 /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		6C4E2AF127367ADE00D2D0C5 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				6C4E2AF227367ADE00D2D0C5 /* Info.plist */,
-				6C4E2AF327367ADE00D2D0C5 /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		6C4E2AFB27367ADE00D2D0C5 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6C4E2AFC27367ADE00D2D0C5 /* Tests_iOS.swift */,
-				6C4E2AFE27367ADE00D2D0C5 /* Info.plist */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		6C4E2B0627367ADE00D2D0C5 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				6C4E2B0727367ADE00D2D0C5 /* Tests_macOS.swift */,
-				6C4E2B0927367ADE00D2D0C5 /* Info.plist */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4FC6E427410C660089E4F7 /* SleepCalculator.mlmodel in Sources */,
 				6C4E2B0C27367ADE00D2D0C5 /* ContentView.swift in Sources */,
 				6C4E2B0A27367ADE00D2D0C5 /* BetterRestApp.swift in Sources */,
 			);
@@ -317,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4FC6E527410C660089E4F7 /* SleepCalculator.mlmodel in Sources */,
 				6C4E2B0D27367ADE00D2D0C5 /* ContentView.swift in Sources */,
 				6C4E2B0B27367ADE00D2D0C5 /* BetterRestApp.swift in Sources */,
 			);
@@ -326,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C4E2AFD27367ADE00D2D0C5 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C4E2B0827367ADE00D2D0C5 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +361,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -458,6 +416,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -473,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
