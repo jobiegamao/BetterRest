@@ -39,7 +39,7 @@ struct ContentView: View {
                     
                     DatePicker("Enter time", selection: $wakeUp, displayedComponents: .hourAndMinute)
                         .labelsHidden()
-                        .padding(.leading, 90.0)
+                       
                 }
                 
                
